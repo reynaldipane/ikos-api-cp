@@ -13,6 +13,8 @@ $app->get('/', '\Ikos:welcome');
 
 $app->get('/show', '\Ikos:showUser');
 
+$app->get('/test', '\Ikos:testFunction');
+
 $app->run();
 
 ?>

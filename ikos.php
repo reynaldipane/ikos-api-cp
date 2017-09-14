@@ -16,6 +16,10 @@ Class Ikos {
 	public function welcome() {
 		echo "Hello World";
 	}
+
+	public function test() {
+		echo "This is heroku !";
+	}
  	
  	public function showUser() {
  		$sql 	= 'select * from `ikos-user`';
