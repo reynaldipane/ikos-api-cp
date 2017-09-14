@@ -17,7 +17,7 @@ Class Ikos {
 		echo "Hello World";
 	}
 
-	public function test() {
+	public function testFunction() {
 		echo "This is heroku !";
 	}
  	
